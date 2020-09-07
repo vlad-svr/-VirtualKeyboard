@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Виртуальная клавиатура</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="fix-clear"><span>Очистить</span></div>
+  <div class="container">
+    <div class="item1">
+      <h1>Виртуальная клавиатура<br><span>CSS Grid</span></h1>
+      <input class="input-key" type="text">
+      <p class="inl-block"><input class="input-check" type="checkbox">Переключить раскладку</p>
+      <p class="inl-block"><input class="input-check-uppercase" type="checkbox">Включить верхний регистр</p>
+    </div>
+    <div class="keybord">
+      <div class="block1-up">
+        <div data="Escape" class="key escape">Esc</div>
+      </div>
+      <div class="block2-up">
+        <div data="F1" class="key">F1</div>
+        <div data="F2" class="key">F2</div>
+        <div data="F3" class="key">F3</div>
+        <div data="F4" class="key">F4</div>
+      </div>
+      <div class="block3-up">
+        <div data="F5" class="key">F5</div>
+        <div data="F6" class="key">F6</div>
+        <div data="F7" class="key">F7</div>
+        <div data="F8" class="key">F8</div>
+      </div>
+      <div class="block4-up">
+        <div data="F9" class="key">F9</div>
+        <div data="F10" class="key">F10</div>
+        <div data="F11" class="key">F11</div>
+        <div data="F12" class="key">F12</div>
+      </div>
+      <div class="block5-up">
+        <div data="PrintScreen" class="key">
+          <p class="border-bott">Print Screen</p>
+          <p>Sys Rq</p>
+        </div>
+        <div data="ScrollLock" class="key">Scroll Lock</div>
+        <div data="Pause" class="key">
+          <p class="border-bott2">Pause</p>
+          <p>Break</p>
+        </div>
+      </div>
+      <div class="block-center">
+        <div data="Backquote" value="`" data-ru="ё" class="key key-letter">
+          <p class="upper">~</p>
+          <p class="lower">ё</p>
+        </div>
+        <div data="Digit1" value="1" data-ru="!" class="key key-letter">
+          <p class="upper">1</p>
+          <p class="lower">!</p>
+        </div>
+        <div data="Digit2" value="2" data-ru="@" class="key key-letter">
+          <p class="upper">2</p>
+          <p class="lower">@</p>
+        </div>
+        <div data="Digit3" value="3" data-ru="#" class="key key-letter">
+          <p class="upper">3</p>
+          <p class="lower">#</p>
+        </div>
+        <div data="Digit4" value="4" data-ru="$" class="key key-letter">
+          <p class="upper">4</p>
+          <p class="lower">$</p>
+        </div>
+        <div data="Digit5" value="5" data-ru="%" class="key key-letter">
+          <p class="upper">5</p>
+          <p class="lower">%</p>
+        </div>
+        <div data="Digit6" value="6" data-ru="^" class="key key-letter">
+          <p class="upper">6</p>
+          <p class="lower">^</p>
+        </div>
+        <div data="Digit7" value="7" data-ru="&" class="key key-letter">
+          <p class="upper">7</p>
+          <p class="lower">&</p>
+        </div>
+        <div data="Digit8" value="8" data-ru="*" class="key key-letter">
+          <p class="upper">8</p>
+          <p class="lower">*</p>
+        </div>
+        <div data="Digit9" value="9" data-ru="(" class="key key-letter">
+          <p class="upper">9</p>
+          <p class="lower">(</p>
+        </div>
+        <div data="Digit0" value="0" data-ru=")" class="key key-letter">
+          <p class="upper">0</p>
+          <p class="lower">)</p>
+        </div>
+        <div data="Minus" value="-" data-ru="_" class="key key-letter">
+          <p class="upper">_</p>
+          <p class="lower">-</p>
+        </div>
+        <div data="Equal" value="=" data-ru="+" class="key key-letter">
+          <p class="upper">+</p>
+          <p class="lower">=</p>
+        </div>
+        <div data="Backspace" class="key backspace"><img src="images/arrayBackspace.png" alt="arrayEnter">Backspace
+        </div>
+        <div data="Tab" class="key tab">Tab<img src="images/arrayTab.png" alt="arrayTab"></div>
+        <div data="KeyQ" value="q" data-ru="й" class="key key-letter">
+          <p class="upper">Q</p>
+          <p class="lower">й</p>
+        </div>
+        <div data="KeyW" value="w" data-ru="ц" class="key key-letter">
+          <p class="upper">W</p>
+          <p class="lower">ц</p>
+        </div>
+        <div data="KeyE" value="e" data-ru="у" class="key key-letter">
+          <p class="upper">E</p>
+          <p class="lower">у</p>
+        </div>
+        <div data="KeyR" value="r" data-ru="к" class="key key-letter">
+          <p class="upper">R</p>
+          <p class="lower">к</p>
+        </div>
+        <div data="KeyT" value="t" data-ru="е" class="key key-letter">
+          <p class="upper">T</p>
+          <p class="lower">е</p>
+        </div>
+        <div data="KeyY" value="y" data-ru="н" class="key key-letter">
+          <p class="upper">Y</p>
+          <p class="lower">н</p>
+        </div>
+        <div data="KeyU" value="u" data-ru="г" class="key key-letter">
+          <p class="upper">U</p>
+          <p class="lower">г</p>
+        </div>
+        <div data="KeyI" value="i" data-ru="ш" class="key key-letter">
+          <p class="upper">I</p>
+          <p class="lower">ш</p>
+        </div>
+        <div data="KeyO" value="o" data-ru="щ" class="key key-letter">
+          <p class="upper">O</p>
+          <p class="lower">щ</p>
+        </div>
+        <div data="KeyP" value="p" data-ru="з" class="key key-letter">
+          <p class="upper">P</p>
+          <p class="lower">з</p>
+        </div>
+        <div data="BracketLeft" value="[" data-ru="х" class="key key-letter">
+          <p class="upper">[</p>
+          <p class="lower">х</p>
+        </div>
+        <div data="BracketRight" value="]" data-ru="ъ" class="key key-letter">
+          <p class="upper">]</p>
+          <p class="lower">ъ</p>
+        </div>
+        <div data="Enter" class="key enter">Enter <img src="images/arrayEnter.png" alt="arrayEnter"></div>
+        <div data="CapsLock" class="key capslock">Caps Lock</div>
+        <div data="KeyA" value="a" data-ru="ф" class="key key-letter">
+          <p class="upper">A</p>
+          <p class="lower">ф</p>
+        </div>
+        <div data="KeyS" value="s" data-ru="ы" class="key key-letter">
+          <p class="upper">S</p>
+          <p class="lower">ы</p>
+        </div>
+        <div data="KeyD" value="d" data-ru="в" class="key key-letter">
+          <p class="upper">D</p>
+          <p class="lower">в</p>
+        </div>
+        <div data="KeyF" value="f" data-ru="а" class="key key-letter">
+          <p class="upper">F</p>
+          <p class="lower">а</p>
+        </div>
+        <div data="KeyG" value="g" data-ru="п" class="key key-letter">
+          <p class="upper">G</p>
+          <p class="lower">п</p>
+        </div>
+        <div data="KeyH" value="h" data-ru="р" class="key key-letter">
+          <p class="upper">H</p>
+          <p class="lower">р</p>
+        </div>
+        <div data="KeyJ" value="j" data-ru="о" class="key key-letter">
+          <p class="upper">J</p>
+          <p class="lower">о</p>
+        </div>
+        <div data="KeyK" value="k" data-ru="л" class="key key-letter">
+          <p class="upper">K</p>
+          <p class="lower">л</p>
+        </div>
+        <div data="KeyL" value="l" data-ru="д" class="key key-letter">
+          <p class="upper">L</p>
+          <p class="lower">д</p>
+        </div>
+        <div data="Semicolon" value=";" data-ru="ж" class="key key-letter">
+          <p class="upper">;</p>
+          <p class="lower">ж</p>
+        </div>
+        <div data="Quote" value="'" data-ru="э" class="key key-letter">
+          <p class="upper">'</p>
+          <p class="lower">э</p>
+        </div>
+        <div data="Backslash" value="\" data-ru="|" class="key key-letter">
+          <p class="upper">\</p>
+          <p class="lower">|</p>
+        </div>
+        <div data="ShiftLeft" class="key left-shift"><img src="images/arrayShift.png" alt="arrayShift">Shift</div>
+        <div data="KeyZ" value="z" data-ru="я" class="key key-letter">
+          <p class="upper">Z</p>
+          <p class="lower">я</p>
+        </div>
+        <div data="KeyX" value="x" data-ru="ч" class="key key-letter">
+          <p class="upper">X</p>
+          <p class="lower">ч</p>
+        </div>
+        <div data="KeyC" value="c" data-ru="с" class="key key-letter">
+          <p class="upper">C</p>
+          <p class="lower">с</p>
+        </div>
+        <div data="KeyV" value="v" data-ru="м" class="key key-letter">
+          <p class="upper">V</p>
+          <p class="lower">м</p>
+        </div>
+        <div data="KeyB" value="b" data-ru="и" class="key key-letter">
+          <p class="upper">B</p>
+          <p class="lower">и</p>
+        </div>
+        <div data="KeyN" value="n" data-ru="т" class="key key-letter">
+          <p class="upper">N</p>
+          <p class="lower">т</p>
+        </div>
+        <div data="KeyM" value="m" data-ru="ь" class="key key-letter">
+          <p class="upper">M</p>
+          <p class="lower">ь</p>
+        </div>
+        <div data="Comma" value="," data-ru="б" class="key key-letter">
+          <p class="upper">,</p>
+          <p class="lower">б</p>
+        </div>
+        <div data="Period" value="." data-ru="ю" class="key key-letter">
+          <p class="upper">.</p>
+          <p class="lower">ю</p>
+        </div>
+        <div data="Slash" value="/" data-ru="?" class="key key-letter">
+          <p class="upper">/</p>
+          <p class="lower">?</p>
+        </div>
+        <div data="ShiftRight" class="key right-shift"><img src="images/arrayShift.png" alt="arrayShift">Shift</div>
+        <div data="ControlLeft" class="key left-ctrl">Ctrl</div>
+        <div data="MetaLeft" class="key left-win"><img src="images/win.png" alt="win"></div>
+        <div data="AltLeft" class="key left-alt">Alt</div>
+        <div data="Space" value="&nbsp" data-ru="&nbsp" class="key space">Space</div>
+        <div data="AltRight" class="key right-alt">Alt Gr</div>
+        <div data="MetaRight" class="key right-win"><img src="images/win.png" alt="win"></div>
+        <div data="ContextMenu" class="key fn"><img src="images/selKey.png" alt="selKey"></div>
+        <div data="ControlRight" class=" key right-ctrl">Ctrl</div>
+
+      </div>
+      <div class="block1-right">
+        <div data="Insert" class="key">Insert</div>
+        <div data="Home" class="key">Home</div>
+        <div data="PageUp" class="key">Page Up</div>
+        <div data="Delete" class="key">Delete</div>
+        <div data="End" class="key">End</div>
+        <div data="PageDown" class="key">Page Down</div>
+      </div>
+      <div class="block2-right">
+        <div data="ArrowUp" class="key"><img src="images/arrayUp.png" alt="arrayUp"></div>
+        <div data="ArrowLeft" class="key"><img src="images/arrayLeft.png" alt="arrayLeft"></div>
+        <div data="ArrowDown" class="key"><img src="images/arrayDown.png" alt="arrayDown"></div>
+        <div data="ArrowRight" class="key"><img src="images/arrayRight.png" alt="arrayRight"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

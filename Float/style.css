@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-select: none; 
+}
+
+
+
+html, body {
+    font-family: Tahoma, 'Spectral SC', serif;
+    cursor: default; 
+}
+
+
+.input-key {
+    height: 50px;
+    width: 600px;
+    font-size: 24px;
+    padding: 20px;
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 10px;
+}
+
+.input-key:hover {
+    cursor: text;
+    box-shadow: 1px 1px 7px rgb(114, 114, 114);
+}
+
+.input-check, .input-check-uppercase {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 20px;
+    top: 4px;
+}
+.input-check:hover, .input-check-uppercase:hover {
+    cursor: pointer;
+    box-shadow: 0 0 18px rgb(114, 114, 114);
+}
+
+.inl-block {
+    text-align: left;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+}
+
+.fix-clear {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    background: rgb(129, 129, 129, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 45px;
+    left: 438px;
+    border-radius: 10px;
+}
+.fix:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(82, 82, 82);
+}
+
+.fix-clear span {
+    color: rgb(44, 44, 44);
+    font-size: 22px;
+    font-weight: 600;    
+    text-align: center;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+.container {
+    display: grid;
+    justify-items: center;
+}
+
+
+.item1 {
+    text-align: center;
+    padding: 25px 0 50px 0;
+}
+
+.item1 h1 {
+    margin: 20px 0 30px 0;
+}
+
+span {   
+    color: rgb(224, 0, 0);
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+.key {
+    background: rgb(243, 243, 243);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;   
+    width: 50px;
+    height: 50px;
+    min-height: 50px;
+    margin: 4px;
+    float:left; 
+}
+
+.vertical---center {
+    line-height: 40px; 
+}
+
+.key:hover {
+    cursor: pointer;
+    background: rgb(97, 97, 97);
+    color: white;
+    transition-duration: 50ms;
+    }
+
+.array {
+    padding: 0;
+}    
+
+.key-letter {
+    padding: 1px 8px;
+}
+
+.upper {
+    font-size: 18px;
+    text-align: left;
+}
+.lower {
+    font-size: 16px;
+    text-align: right;
+}
+
+
+.keybord {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 12px;    
+    max-width: 1150px;    
+    background: rgb(207, 207, 207);
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.line:first-child {
+    margin-bottom: 15px;
+}
+
+.line:first-child .key:nth-child(1) {
+    margin-right: 62px;
+}
+.line:first-child .key:nth-child(5), .line:first-child .key:nth-child(9), .line:first-child .key:nth-child(13) {
+    margin-right: 33px;
+}
+.line:first-child .key:nth-child(13) {
+    margin-right: 25px;
+}
+.line:first-child .key:nth-child(15) {
+    padding: 9px;
+}
+
+.border-bott {
+    line-height: 13px;
+    border-bottom: 1px solid black;
+}
+.border-bott2 {
+    line-height: 18px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.backspace {
+    width: 108px;
+    margin-right: 25px;   
+    line-height: 40px; 
+}
+.backspace img {
+    position: relative;
+    top: 8px;  
+}
+
+.tab {
+    width: 78px;
+    line-height: 40px;    
+}
+.tab img{
+    float: right; 
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+
+.line:nth-child(2) .key:nth-child(17) {
+    padding: 9px; 
+}
+.line:nth-child(3) .key:nth-child(16) {
+    padding: 9px; 
+}
+
+.line:nth-child(3) .key:nth-child(13) {
+    margin-right: 113px;
+}
+
+.capslock {
+    width: 78px;
+}
+
+.left-shift {
+    width: 108px;
+    line-height: 42px; 
+    padding-right: 18px;
+}
+.left-shift img{
+    float: left; 
+    position: relative;
+    top: 9px;
+    left: 4px;
+}
+
+.right-shift {
+    width: 166px;
+    margin-right: 82px;
+    line-height: 42px; 
+    padding-right: 70px;
+}
+.right-shift img{
+    float: left; 
+    position: relative;
+    top: 9px;
+    left: 4px;
+}
+
+.left-ctrl {
+    width: 78px;
+}
+
+.left-alt, .right-alt {
+    width: 79px; 
+}
+
+.space {
+    width: 342px;
+}
+
+.right-ctrl {
+    width: 78px;
+    margin-right: 25px;  
+}
+
+.enter {
+    position: absolute;
+    right: 210px;
+    top: 146px;
+    width: 80px;
+    height: 108px;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+}
+.enter img {
+    position: relative;
+    bottom: 8px;
+    right: 1px;
+}
+
+.win img, .fn img {
+    position: relative;
+    top: 5px
+}
+
+ 
+ 
+
+
+
